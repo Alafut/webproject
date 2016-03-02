@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Le Jeu</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+        <script type="text/javascript" src="../js/Particles.js"></script>
+    </head>
+    <body onload="setParticles('rgb(255,100,100)',180)">
+    	<div id="accueil">   <!--Doit-on changer sa pour chaque page? -->
+	    	<div class="background-image"></div>
+	    	<div class="site">
+
+	    		<!-- Menu principal et Logo -->
+	    		<header>
+
+	    			<!-- Menu principal-->
+	    			<div class="main-menu">
+	    				<div class="inner">
+	    					<ul>
+	    						<li><a href="../index.html">Accueil</a></li>
+	    						<li class="active"><a href="">Le Jeu</a></li>
+	    						<li><a href="la_compagnie.html">La Compagnie</a></li>
+	    						<li><a href="scene_competitive.html">Scene Competitive</a></li>
+	    						<li><a href="a_propos.html">Info Projet</a></li>
+	    					</ul>
+	    				</div>
+	    			</div>
+	    			
+	    			<!-- Controllers : Animation -->
+	    			<div class="section-particles-controllers">
+	    				<div class="inner">
+	    					<label>Particules : 
+	    						<span class="active" onclick="particlesController(this, false)">Off</span>
+	    						/
+	    						<span onclick="particlesController(this, true)">On</span>
+	    					</label>
+	    				</div>
+	    			</div>
+
+	    			<!-- Le logo de notre sujet -->
+	    			<div class="section-logo">
+	    				<div class="inner">
+	    					<img src="../img/Logo.png"/>
+	    				</div>
+	    			</div>
+	    		</header>
+
+
+	    		<!-- Contenu du site web -->
+	    		<div id="content">
+	    			<div class="inner">
+	    				<div class="content-box">
+	    					<h1></h1>
+	    					<hr/>
+	    					<p></p>
+
+	    				</div>
+	    			</div>
+	    			<!-- Bas de page -->
+    		    	<footer>
+    					<img src="../img/DIRO-logo.png"/>
+    				</footer>
+	    		</div>
+	    	</div>
+    	</div>
+
+
+
+
+
+    	<!-- Canvas -->
+    </body>
+</html>

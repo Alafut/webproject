@@ -1,0 +1,264 @@
+
+/*
+ *	Structure general du site web (+fonts)
+ *
+ ******************************************************/
+
+html{
+	background : black;
+}
+
+body{
+	margin: 0px;
+}
+
+.site{
+	width: 100%;
+}
+
+.inner{
+	max-width: 82em;
+	margin: auto;
+	padding: 0em;
+}
+
+#canvas, .background-image, .site{
+	position: absolute;
+	top:0em;
+	left:0em;
+}
+
+.background-image 	{ z-index: 100; }
+#canvas 			{ z-index: 200; }
+.site 				{ z-index: 300; }
+
+
+/*  Fonts */
+
+@font-face {
+    font-family: "Roboto-R";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-M";
+    src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-T";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-B";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+/*
+ *	Images de fond
+ *
+ ******************************************************/
+
+.background-image{
+	width: 100%;
+	height: 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%; 	/* (img-height / img-width * width) */
+                			/* (853 / 1280 * 100) */
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%;
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%;
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%;
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%;
+}
+
+
+/*
+ *	Menu Principal
+ *
+ ******************************************************/
+
+/*	menu  */
+.main-menu{
+	height: 5em;
+	background : rgba(29, 26, 62, 0.46);
+}      
+
+.main-menu ul{
+	margin:0em;
+	padding:0em;
+}
+
+.main-menu li{
+	display: inline-block;
+	transition: background-color 0.5s;
+	margin-left: -0.25em;
+}
+
+.main-menu li a{
+    padding: 1em 0.5em;
+	display:block;
+	color:#599FCA;
+	font-size: 1.5em;
+	text-decoration: none;
+	font-family: "Roboto-R";
+	transition: color 0.5s;
+
+}
+
+.main-menu li:hover, .main-menu li.active{
+	background-color: rgba(31, 180, 234, 0.26);
+}
+
+.main-menu li:hover a, .main-menu li.active a{
+	color: #00CEFF;
+}
+
+/*
+ *	Logo
+ *
+ ******************************************************/
+
+.section-logo img{
+	height: 181px;
+    margin-top: 4em;
+    margin-left: -1.45em;
+    margin-bottom: 2em;
+}
+
+footer {
+	text-align: center;	
+}
+#content footer img{
+	width: 500px;
+	margin-bottom: 12em;
+}
+
+/*  Controllers  */
+
+.section-particles-controllers{
+	font-family: Roboto-T, Helvetica, Arial, sans-serif;
+	color: #b1bcc2;
+	text-align: right;
+	padding: 0.5em 0.8em;
+	opacity : 0.2;
+	filter: alpha(opacity=20);
+	background: rgba(0, 0, 0, 0.34);
+	transition: opacity 0.8s, filter 0.8s;
+}
+
+.section-particles-controllers label{
+	font-size: 1.2em;
+}
+
+.section-particles-controllers span{
+	cursor: pointer;
+	transition: color 0.4s;
+}
+
+.section-particles-controllers .active{
+	font-weight: bold;
+	font-size: 105%;
+	color:gold;
+}
+
+.section-particles-controllers:hover{
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+
+.section-particles-controllers span:hover{
+	color:gold;
+}
+
+@media screen and (max-width: 800px), handheld {
+    .section-particles-controllers, #canvas{
+    	display:none;
+    }
+}
+
+
+
+
+
+ /*
+ *	Contenu
+ *
+ ******************************************************/
+
+#content .inner{
+	background-color: #F5F5F5;
+	margin-bottom: 15em;
+}
+
+#content .content-box{
+    padding: 5em;
+    padding-bottom: 0em;
+}
+
+#content h1{
+	color: #6D5724;
+	font-family: "Roboto-R";
+	font-size: 3.5em;
+	margin-bottom: 0.5em;
+
+}
+
+#content hr{
+	border: none;
+    height: 12px;
+    background-color: #6D5724;
+    margin-bottom: 4em;
+      
+}
+
+#content img{
+	width:100%;
+}
+
+#content p{
+	word-wrap: break-word;
+	font-family:"Roboto-R";
+	font-size: 1.3em;
+}
+
+
+
+

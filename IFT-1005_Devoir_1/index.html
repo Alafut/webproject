@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Accueil</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <script type="text/javascript" src="js/Particles.js"></script>
+    </head>
+    <body onload="setParticles('rgb(255,100,100)',180)">
+    	<div id="accueil">
+	    	<div class="background-image"></div>
+	    	<div class="site">
+
+	    		<!-- Menu principal et Logo -->
+	    		<header>
+
+	    			<!-- Menu principal-->
+	    			<div class="main-menu">
+	    				<div class="inner">
+	    					<ul>
+	    						<li class="active" ><a href="">Accueil</a></li>
+	    						<li><a href="pages/le_jeu.html">Le Jeu</a></li>
+	    						<li><a href="pages/la_compagnie.html">La Compagnie</a></li>
+	    						<li><a href="pages/scene_competitive.html">Scene Competitive</a></li>
+	    						<li><a href="pages/a_propos.html">Info Projet</a></li>
+	    					</ul>
+	    				</div>
+	    			</div>
+	    			
+	    			<!-- Controllers : Animation -->
+	    			<div class="section-particles-controllers">
+	    				<div class="inner">
+	    					<label>Particules : 
+	    						<span class="active" onclick="particlesController(this, false)">Off</span>
+	    						/
+	    						<span onclick="particlesController(this, true)">On</span>
+	    					</label>
+	    				</div>
+	    			</div>
+
+	    			<!-- Le logo de notre sujet -->
+	    			<div class="section-logo">
+	    				<div class="inner">
+	    					<img src="img/Logo.png"/>
+	    				</div>
+	    			</div>
+	    		</header>
+
+
+	    		<!-- Contenu du site web -->
+	    		<div id="content">
+	    			<div class="inner">
+	    				<div class="content-box">
+	    					<h1>Qu'est-ce que League of Legends?</h1>
+	    					<hr/>
+	    					<p>League of Legends est un jeu vidéo de type arène de bataille en ligne multi-joueurs aussi appeler MOBA (multiplayer online battle arenas). Les MOBA sont des jeux hautement compétitifs. Au début de chaque match, le joueur joint une équipe de 5 joueurs ayant chacun des rôles précis. La courte durée des parties assure une jouabilité sans fin. Les MOBA sont considérés par leur communauté comme étant des sports électroniques.</p>
+							<p>Dans ce site, vous trouverez des informations précises à propos du <a href="pages/le_jeu.html">jeu</a>, de l’histoire de <a href="pages/la_compagnie.html"> la compagnie</a> et de la <a href="pages/scene_competitive.html">scène compétitive</a> où les meilleurs joueurs du monde s’affrontent pour le titre de champions du monde de League of Legends!</p>
+							<p>Si vous souhaitez avoir plus d'information sur le processus de création de ce site web, nous vous invitons à visiter notre page d'<a href="pages/a_propos.html">information.</a></p>							
+	    				</div>
+	    				<img src="img/accueil_bottom_img.jpg">
+	    			</div>
+	    			<!-- Bas de page -->
+    		    	<footer>
+    					<img src="img/DIRO-logo.png"/>
+    				</footer>
+	    		</div>
+	    	</div>
+    	</div>
+
+
+
+
+
+    	<!-- Canvas -->
+    </body>
+</html>
