@@ -258,19 +258,19 @@ footer {
 	padding-top: 49.5%;
 }
 
-#accueil .background-image{
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	padding-top: 62.52%;
+#competition .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/competition_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/competition_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/competition_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/competition_background_final.jpg");
+	padding-top: 49.5%;
 }
 
-#accueil .background-image{
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+#info .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/info_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/info_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/info_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/info_background_final.jpg");
 	padding-top: 62.52%;
 }
 
@@ -283,9 +283,16 @@ footer {
 }
 
 #compagnie .main-menu{
-    background: rgba(207, 190, 0, 0.47);
+    background: rgba(62, 56, 0, 0.5);
 }
 
+#competition .main-menu{
+    background: rgba(53, 3, 3, 0.55);
+}
+
+#info .main-menu{
+    background: rgba(80, 80, 80, 0.12);
+}
 
 
 /* Menu : links color */
@@ -295,7 +302,15 @@ footer {
 }
 
 #compagnie .main-menu li a{
-    color: #777629;
+    color: #3B3A0A;
+}
+
+#competition .main-menu li a{
+    color: #9F4545;
+}
+
+#info .main-menu li a{
+    color: #484848;
 }
 
 
@@ -311,13 +326,27 @@ footer {
 }
 
 #compagnie .main-menu li:hover, #compagnie .main-menu li.active{
-    background: rgba(255, 243, 0, 0.3);
+    background: rgba(255, 243, 6, 0.49);
 }
 
 #compagnie .main-menu li:hover a, #compagnie .main-menu li.active a{
 	color: #040500;
 }
 
+#competition .main-menu li:hover, #competition .main-menu li.active{
+    background: rgba(224, 89, 89, 0.56);
+}
 
+#competition .main-menu li:hover a, #competition .main-menu li.active a{
+	color: #FED1D1;
+}
+
+#info .main-menu li:hover, #info .main-menu li.active{
+    background: rgba(218, 218, 218, 0.08);
+}
+
+#info .main-menu li:hover a, #info .main-menu li.active a{
+	color: #E31818;
+}
 
 
