@@ -77,38 +77,6 @@ body{
                 			/* (853 / 1280 * 100) */
 }
 
-#accueil .background-image{
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	padding-top: 62.52%;
-}
-
-#accueil .background-image{
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	padding-top: 62.52%;
-}
-
-#accueil .background-image{
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	padding-top: 62.52%;
-}
-
-#accueil .background-image{
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
-	padding-top: 62.52%;
-}
-
 
 /*
  *	Menu Principal
@@ -133,7 +101,7 @@ body{
 }
 
 .main-menu li a{
-    padding: 1em 0.5em;
+    padding: 1em 1em;
 	display:block;
 	color:#599FCA;
 	font-size: 1.5em;
@@ -151,36 +119,17 @@ body{
 	color: #00CEFF;
 }
 
-/*
- *	Logo
- *
- ******************************************************/
 
-.section-logo img{
-	height: 181px;
-    margin-top: 4em;
-    margin-left: -1.45em;
-    margin-bottom: 2em;
-}
-
-footer {
-	text-align: center;	
-}
-#content footer img{
-	width: 500px;
-	margin-bottom: 12em;
-}
 
 /*  Controllers  */
 
 .section-particles-controllers{
 	font-family: Roboto-T, Helvetica, Arial, sans-serif;
-	color: #b1bcc2;
+	color: #e1e1e1;
 	text-align: right;
 	padding: 0.5em 0.8em;
 	opacity : 0.2;
 	filter: alpha(opacity=20);
-	background: rgba(0, 0, 0, 0.34);
 	transition: opacity 0.8s, filter 0.8s;
 }
 
@@ -218,6 +167,30 @@ footer {
 
 
 
+/*
+ *	Logo
+ *
+ ******************************************************/
+
+.section-logo img{
+	height: 181px;
+    margin-top: 4em;
+    margin-left: -1.45em;
+    margin-bottom: 2em;
+}
+
+footer {
+	text-align: center;	
+}
+
+#content footer img{
+	width: 500px;
+	margin-bottom: 12em;
+}
+
+
+
+
  /*
  *	Contenu
  *
@@ -251,12 +224,98 @@ footer {
 
 #content img{
 	width:100%;
+	margin-bottom: -5px;
 }
 
 #content p{
 	word-wrap: break-word;
 	font-family:"Roboto-R";
 	font-size: 1.3em;
+}
+
+
+
+ /*
+ *	Adjustements
+ *
+ ******************************************************/
+
+/* Backgrounds per page */
+
+#jeu .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/jeu_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/jeu_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/jeu_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/jeu_background_final.jpg");
+	padding-top: 37.33%;
+}
+
+#compagnie .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/compagnie_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/compagnie_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/compagnie_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/compagnie_background_final.jpg");
+	padding-top: 49.5%;
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%;
+}
+
+#accueil .background-image{
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgb(0, 0, 0) 80%), url("../img/accueil_background_final.jpg");
+	padding-top: 62.52%;
+}
+
+
+
+/* Menu : background-color */
+
+#jeu .main-menu{
+    background: rgba(7, 17, 3, 0.75);
+}
+
+#compagnie .main-menu{
+    background: rgba(207, 190, 0, 0.47);
+}
+
+
+
+/* Menu : links color */
+
+#jeu .main-menu li a{
+    color: #14602D;
+}
+
+#compagnie .main-menu li a{
+    color: #777629;
+}
+
+
+
+/* Menu : hover color */
+
+#jeu .main-menu li:hover, #jeu .main-menu li.active{
+    background: rgba(26, 132, 27, 0.3);
+}
+
+#jeu .main-menu li:hover a, #jeu .main-menu li.active a{
+	color: #57E17B;
+}
+
+#compagnie .main-menu li:hover, #compagnie .main-menu li.active{
+    background: rgba(255, 243, 0, 0.3);
+}
+
+#compagnie .main-menu li:hover a, #compagnie .main-menu li.active a{
+	color: #040500;
 }
 
 
