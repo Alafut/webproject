@@ -1,0 +1,45 @@
+
+/*
+ *	A propos
+ *
+ **************************************/
+
+#info .section-logo img{
+	display: none;
+}
+
+#info #content{
+	margin-top: 10em;
+}
+
+/* First ul */
+
+#info .content-box ul:nth-child(3){
+	font-size: 2em;
+	text-align: center;
+	font-family: "Roboto-T";
+	list-style-type: none;
+}
+
+#info .content-box ul:nth-child(3) p{
+	margin: 0em;
+	margin-bottom: 0.4em;
+}
+
+/* A remplacer de stylesheet */
+
+#content p{
+	font-size: 1.6em;
+}
+
+#content h2{
+	font-size: 2.2em;
+}
+
+#content h1{
+	margin-top: 2em;
+}
+
+#content h1:first-child{
+	margin-top: 0em;
+}
